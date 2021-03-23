@@ -9,7 +9,6 @@
   "homepage": "http://abdulsamea.github.io/graphql-auth",
   "scripts": {
     "dev": "nodemon index.js --ignore client",
-    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node client/index.js"
