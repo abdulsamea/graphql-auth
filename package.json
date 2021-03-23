@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Starter pack for an auth-included graphql project",
   "repository": {
-    "type": "git"
+    "type": "git" 
   },
   "main": "index.js",
   "homepage": "http://abdulsamea.github.io/graphql-auth",
