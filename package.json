@@ -6,12 +6,13 @@
     "type": "git"
   },
   "main": "index.js",
-  "homepage" : "http://abdulsamea.github.io/graphql-auth",
+  "homepage": "http://abdulsamea.github.io/graphql-auth",
   "scripts": {
     "dev": "nodemon index.js --ignore client",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start": "node client/index.js"
   },
   "author": "",
   "license": "ISC",
