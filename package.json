@@ -1,12 +1,11 @@
 {
-  "name": "users",
+  "name": "lyrical",
   "version": "1.0.0",
-  "description": "Starter pack for an auth-included graphql project",
-  "repository": {
-    "type": "git" 
-  },
+  "description": "Starter point for a graphQL course on passportjs",
   "main": "index.js",
-  "homepage": "http://abdulsamea.github.io/graphql-auth",
+  "repository": {
+    "type": "git"
+  },
   "scripts": {
     "dev": "nodemon index.js --ignore client",
     "start": "node index.js"

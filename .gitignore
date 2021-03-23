@@ -1,6 +1,2 @@
 node_modules
 .env
-.firebase
-firebase.json
-.firebaserc
-package-lock.json
