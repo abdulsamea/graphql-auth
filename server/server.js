@@ -9,19 +9,19 @@ const MongoStore = require('connect-mongo')(session);
 const schema = require('./schema/schema');
 
 
-const dotenv = require('dotenv');
-const result = dotenv.config();
-if (result.error) {
-  throw result.error;
-}
-const { parsed: envs } = result;
-module.exports = envs;
+// const dotenv = require('dotenv');
+// const result = dotenv.config();
+// if (result.error) {
+//   throw result.error;
+// }
+// const { parsed: envs } = result;
+// module.exports = envs;
 
 // Create a new Express application
 const app = express();
 
 // Replace with your mongoLab URI
-const MONGO_URI = process.env.MONGO_DB_URL;
+const MONGO_URI = 'mongodb://abdulsamea:abcd1234@cluster0-shard-00-00.ncwbd.mongodb.net:27017,cluster0-shard-00-01.ncwbd.mongodb.net:27017,cluster0-shard-00-02.ncwbd.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-1k0xon-shard-0&authSource=admin&retryWrites=true&w=majority';
 // Mongoose's built in promise library is deprecated, replace it with ES2015 Promise
 mongoose.Promise = global.Promise;
 
