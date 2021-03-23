@@ -14,7 +14,7 @@ const schema = require('./schema/schema');
 // if (result.error) {
 //   throw result.error;
 // }
-// const { parsed: envs } = result;
+// const { parsed: envs } = result
 // module.exports = envs;
 
 // Create a new Express application
